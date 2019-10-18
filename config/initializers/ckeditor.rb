@@ -22,7 +22,8 @@ if Object.const_defined?('Ckeditor')
     config.picture_model { Ckeditor::Picture }
     config.attachment_file_model { Ckeditor::AttachmentFile }
 
-    # //cdn.ckeditor.com/<version.number>/<distribution>/ckeditor.js | distributions available here: https://ckeditor.com/cke4/presets-all
-    config.cdn_url = "//cdn.ckeditor.com/4.11.3/standard/ckeditor.js"
+    # //cdn.ckeditor.com/<version.number>/<distribution>/ckeditor.js | distributions
+    # available here: https://ckeditor.com/cke4/presets-all
+    config.cdn_url = '//cdn.ckeditor.com/4.11.3/standard/ckeditor.js'
   end
 end
