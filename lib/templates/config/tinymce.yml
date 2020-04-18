@@ -9,9 +9,8 @@
 
 # TinyMCE Options
 mode: "exact"
-theme: "modern"
+theme: "silver"
 language: "<%= I18n.locale.to_s.split('-')[0].downcase %>"
-skin: "lightgray"
 schema: "html5-strict"
 element_format: "html"
 resize: true
